@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/fulcr/Projects/PinSaver/app/src/main/res/drawable-nodpi/back.xml" value="0.1705" />
+        <entry key="..\:/Users/fulcr/Projects/PinSaver/app/src/main/res/drawable-nodpi/ic_ab_back_holo_dark.xml" value="0.1705" />
+        <entry key="..\:/Users/fulcr/Projects/PinSaver/app/src/main/res/drawable-nodpi/ic_ab_back_holo_light.xml" value="0.1705" />
+        <entry key="..\:/Users/fulcr/Projects/PinSaver/app/src/main/res/drawable-nodpi/ic_ab_back_material.xml" value="0.1705" />
+        <entry key="..\:/Users/fulcr/Projects/PinSaver/app/src/main/res/drawable-nodpi/ic_ab_back_material_dark.xml" value="0.1705" />
+        <entry key="..\:/Users/fulcr/Projects/PinSaver/app/src/main/res/drawable-nodpi/ic_ab_back_material_light.xml" value="0.1705" />
+        <entry key="..\:/Users/fulcr/Projects/PinSaver/app/src/main/res/drawable-nodpi/ic_ab_back_material_settings.xml" value="0.1705" />
         <entry key="..\:/Users/fulcr/Projects/PinSaver/app/src/main/res/layout/main.xml" value="0.1287568306010929" />
       </map>
     </option>

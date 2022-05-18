@@ -6,4 +6,6 @@
     <color name="BGD">#111</color>
     <color name="TCL">@color/BGD</color>
     <color name="TCD">@color/BGL</color>
+    <color name="lSep">#DDD</color><!--#EFEFF0-->
+    <color name="dSep">#303030</color>
 </resources>

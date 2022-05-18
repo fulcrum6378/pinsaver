@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">PinSaver</string>
+
+    <!-- GLOBAL -->
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!-- Main -->
+    <string name="toExit">Double tap to exit&#8230;</string>
 </resources>

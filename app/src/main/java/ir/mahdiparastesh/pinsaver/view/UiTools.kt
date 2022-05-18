@@ -1,7 +1,11 @@
 package ir.mahdiparastesh.pinsaver.view
 
+import android.util.TypedValue
+import android.view.ContextThemeWrapper
 import android.view.View
 import android.view.ViewGroup
+import androidx.annotation.AttrRes
+import androidx.annotation.ColorInt
 import androidx.annotation.StringRes
 import androidx.appcompat.app.AlertDialog
 import androidx.constraintlayout.widget.ConstraintLayout
@@ -37,5 +41,11 @@ class UiTools {
         fun InitializationStatus.isReady(): Boolean = if (adapterStatusMap.containsKey(ADMOB))
             adapterStatusMap[ADMOB]?.initializationState == AdapterStatus.State.READY
         else false
+
+        @ColorInt
+        fun ContextThemeWrapper.themeColor(@AttrRes attr: Int = android.R.attr.colorPrimaryDark) =
+            TypedValue().apply {
+                theme.resolveAttribute(attr, this, true)
+            }.data
     }
 }
